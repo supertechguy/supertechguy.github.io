@@ -1,162 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pineapple Pi | SUPERTECHGUY</title>
+  <meta name="description" content="A portable wireless audit rig built from a Raspberry Pi 3, Kali Linux, a 7-inch touchscreen, and a Hak5 WiFi Pineapple.">
+  <meta name="author" content="Jeremy Cox (supertechguy)">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Pineapple Pi | SUPERTECHGUY">
+  <meta property="og:description" content="A portable wireless audit rig built from a Raspberry Pi 3, Kali Linux, a 7-inch touchscreen, and a Hak5 WiFi Pineapple.">
+  <meta property="og:url" content="https://supertechguy.com/projects/pineapplepi/">
+  <meta property="og:image" content="https://supertechguy.com/assets/img/jeremy.jpg">
+  <link rel="canonical" href="https://supertechguy.com/projects/pineapplepi/">
+  <link rel="icon" type="image/svg+xml" href="../../assets/img/supertechguy-avatar-diecut.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="../../assets/css/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="../../index.html" aria-label="SUPERTECHGUY home">
+        <img class="mark" src="../../assets/img/supertechguy-avatar-diecut.svg" alt="" width="34" height="30">
+        <img class="word" src="../../assets/img/supertechguy-text.svg" alt="SUPERTECHGUY" width="170" height="11">
+      </a>
+      <button class="nav-toggle" aria-controls="site-nav" aria-expanded="false" aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
+      <nav class="nav" id="site-nav">
+        <a href="../../services.html">Services</a>
+        <a href="../../training.html">Training</a>
+        <a href="../../about-me.html">About</a>
+        <a href="../../projects.html" aria-current="page">Projects</a>
+        <a class="btn" href="../../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="supertechguy technical services: consulting and training in the St George UT area">
-    <meta name="author" content="supertechguy">
-
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="https://supertechguy.com/projects/pineapplepi/assets/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-    <!-- Simple line icons-->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="../../assets/css/styles.css" rel="stylesheet" />
-
-
-    <!-- Custom CSS -->
-    <link href="../../assets/css/supertechguy.css" rel="stylesheet">
-
-  </head>
-
-  <body id="page-top">
-    
-    <!-- Navigation -->
-    <a class="menu-toggle rounded" href="index.html#">
-      <i class="fas fa-bars"></i>
-    </a>
-    <nav id="sidebar-wrapper">
-      <ul class="sidebar-nav">
-        <li class="sidebar-brand">
-          <a class="js-scroll-trigger" href="index.html#page-top"><img src="../../assets/img/supertechguy-text.svg" alt="supertechguy" width="50%"></a>
-	  <img src="../../assets/img/supertechguy-avatar-diecut.svg" width="30px">
-        </li>
-        <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="../../index.html">Home</a>
-        </li>
-        <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="../../about-me.html">About</a>
-        </li>
-<!--        <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="/help">Help</a>
-        </li>-->
-        <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="../../projects.html">Projects</a>
-        </li>
-        <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="../../training.html">Training</a>
-        </li>
-        </li>
-<!--        <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="/blog">Blog</a>
-        </li>-->
-      </ul>
-    </nav>
-
-<head><title>supertechguy.com</title></head>
-
-    <section class="content-section bg-light" id="about">
+  <main id="main">
+    <section class="hero page-hero">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-10 mx-auto">
-	    <img src="../../assets/img/supertechguy-text-black.svg" alt="supertechguy" width="60%">&nbsp;&nbsp;&nbsp;<img src="../../assets/img/supertechguy-avatar-fixed.svg" alt="supertechguy" width="50px">&nbsp;<small class="text-muted">™</small>
-            <h1>Pineapple Pi</h1>
-<h3>Portable Hacking Unit: Raspberry Pi 3 running Kali Linux with 7" Touch screen and Hak5 Wifi Pineapple.</h3>
-
-<p>Too many times I have found that using my Wifi Pineapple has been cumbersome with a full size laptop.  Although having access to Linux based tools is useful, the size just ultimately became a problem.  I started looking at tablet options, and then it occurred to me, couldn’t I just use a Raspberry Pi to accomplish this task?  Well, after researching options, I found a solution that not only provides a small footprint and portability, it also give me access to almost every tool I need.</p>
-
-<h3>Introducing the Pineapple Pi running Kali Linux.</h3><br>
-
-<img src='https://cdn.hackaday.io/images/7186541539982249142.jpg' width='400px'><br><br>
-
-<h5>Parts List:</h5>
-<p>
-<ul>
-<li><a href='https://www.amazon.com/gp/product/B01CD5VC92/ref=s9_dcacsd_dcoop_bw_cr_x__a_w'>Raspberry Pi 3 Model B</a></li>
-<li><a href='https://shop.hak5.org/products/wifi-pineapple?variant=11303845317'>Hak5 Wifi Pineapple TETRA</a></li>
-<li><a href='https://www.amazon.com/gp/product/B0153R2A9I/ref=od_aui_detailpages00?ie=UTF8&psc=1'>Rasberry Pi 7” Multitouch Display</a></li>
-<li><a href='https://www.amazon.com/gp/product/B07H39CKH3/ref=s9_dcacsd_dcoop_bw_cr_x__a_w'>Sandisk Ultra 64GB Micro SDXC UHS-I Card with Adapter</a></li>
-<li><a href='https://www.amazon.com/gp/product/B01HV97F64/ref=od_aui_detailpages00?ie=UTF8&psc=1'>Case for The Official Raspberry Pi 7in Touchscreen Display - Adjustable Angle</a></li>
-<li><a href='https://www.amazon.com/gp/product/B071J7SLM8/ref=od_aui_detailpages00?ie=UTF8&psc=1'>SmartiPi Touch back HAT cover - 15mm deep</a></li>
-<li><a href='https://www.amazon.com/gp/product/B000WFRMBI/ref=od_aui_detailpages00?ie=UTF8&psc=1'>VELCRO Brand Industrial Strength</a></li>
-<li><a href='https://www.amazon.com/gp/product/B07BRQSN5C/ref=od_aui_detailpages00?ie=UTF8&psc=1'>Anker Nylon Braided Tangle-Free Micro USB Cable with Gold-Plated Connectors - 2 pack</a></li>
-<li><a href='https://www.amazon.com/Portable-RAVPower-20100mAh-Transfer-Smartphones/dp/B0156HCJQO?ref_=w_bl_hsx_s_wi_web_5737052011'>RAVPower Power bank USB 20100mAh Battery</a></li>
-<li><a href='https://www.amazon.com/dp/B01018CXXM/ref=twister_B077NQF5VD?_encoding=UTF8&psc=1'>14in Cable Ties</a></li>
-<li><a href='https://www.amazon.com/Logitech-Wireless-Keyboard-Control-Touchpad/dp/B014EUQOGK'>Logitech K400 Keyboard (Optional)</a></li>
-</ul>
-</p>
-<br>
-<p>Since the WiFi Pineapple has a mostly GUI interface, that actually works well with a touch screen, this setup is the perfect option for using the Pineapple with a permanently attached computer.  It's easy to carry around, and still small enough to stash somewhere to use for a audit.</p><br>
-
-<img src='https://cdn.hackaday.io/images/4830901539982265492.jpg' width='400px'><br><br>
-
-<p>The 20100mAh Battery allows it to run without being plugged in for hours.</p>
-
-<img src='https://cdn.hackaday.io/images/5726831539982255463.jpg' width='400px'><br><br>
-
-<p>In addition to performing wireless audits, I also have the full capabilities of Kali Linux on a Raspberry Pi 3 at my disposal.  The on-screen keyboard, works for simple typing, but a small logitech wireless keyboard makes it so much easier.</p>
-
-<img src='https://cdn.hackaday.io/images/6099541539982260997.jpg' width='400px'><br><BR>
-
-<img src='https://cdn.hackaday.io/images/6257751539982240966.jpg' width='400px'><br><br>
-
-<p>Overall, I’m very happy with the results and loving my new portable wireless audit machine.</p>
-
-<p>Many thanks to the Hak5 Team <a href='https://hak5.org'>https://hak5.org</a> for the Wifi Pineapple TETRA, Raspberry Pi Foundation <a href='https://www.raspberrypi.org'>https://www.raspberrypi.org</a> for the Raspberry Pi, and Hackday <a href='https://hackaday.io'>https://hackday.io</a> for hosting the images for this project.
-	    </p>
-          </div>
-        </div>
+        <span class="eyebrow"><a href="../../projects.html">Projects</a></span>
+        <h1>Pineapple Pi</h1>
+        <p class="lead">Portable hacking unit: Raspberry Pi 3 running Kali Linux with a 7&Prime; touchscreen and a Hak5 WiFi Pineapple.</p>
       </div>
     </section>
 
-
-
-    <!-- Footer -->
-    <footer class="footer text-center">
-      <div class="container">
-        <ul class="list-inline mb-5">
-          <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href="https://twitter.com/supertechguy">
-              <i class="icon-social-twitter"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href="https://github.com/supertechguy">
-              <i class="icon-social-github"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href="https://www.reddit.com/user/supertechguy">
-              <i class="icon-social-reddit"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href="https://www.youtube.com/user/supertechguy">
-              <i class="icon-social-youtube"></i>
-            </a>
-          </li>
+    <section class="section">
+      <div class="container prose">
+        <p>Too many times I&rsquo;ve found that using my WiFi Pineapple with a full-size laptop is cumbersome. Having access to Linux-based tools is useful, but the size ultimately became a problem. I started looking at tablet options, and then it occurred to me: couldn&rsquo;t I just use a Raspberry Pi? After researching options, I found a solution that not only provides a small footprint and portability, it also gives me access to almost every tool I need.</p>
+        <p>Introducing the Pineapple Pi running Kali Linux.</p>
+        <div class="gallery">
+          <img src="https://cdn.hackaday.io/images/7186541539982249142.jpg" alt="Pineapple Pi build photo" loading="lazy">
+          <img src="https://cdn.hackaday.io/images/4830901539982265492.jpg" alt="Pineapple Pi build photo" loading="lazy">
+        </div>
+        <h2>Parts list</h2>
+        <ul>
+          <li><a href="https://www.amazon.com/gp/product/B01CD5VC92/">Raspberry Pi 3 Model B</a></li>
+          <li><a href="https://shop.hak5.org/products/wifi-pineapple?variant=11303845317">Hak5 WiFi Pineapple TETRA</a></li>
+          <li><a href="https://www.amazon.com/gp/product/B0153R2A9I/">Raspberry Pi 7&Prime; Multitouch Display</a></li>
+          <li><a href="https://www.amazon.com/gp/product/B07H39CKH3/">SanDisk Ultra 64GB microSDXC UHS-I card with adapter</a></li>
+          <li><a href="https://www.amazon.com/gp/product/B01HV97F64/">Case for the official Raspberry Pi 7in touchscreen &mdash; adjustable angle</a></li>
+          <li><a href="https://www.amazon.com/gp/product/B071J7SLM8/">SmartiPi Touch back HAT cover &mdash; 15mm deep</a></li>
+          <li><a href="https://www.amazon.com/gp/product/B000WFRMBI/">VELCRO Brand Industrial Strength</a></li>
+          <li><a href="https://www.amazon.com/gp/product/B07BRQSN5C/">Anker nylon braided micro USB cables (2 pack)</a></li>
+          <li><a href="https://www.amazon.com/Portable-RAVPower-20100mAh-Transfer-Smartphones/dp/B0156HCJQO">RAVPower 20100mAh USB power bank</a></li>
+          <li><a href="https://www.amazon.com/dp/B01018CXXM/">14in cable ties</a></li>
+          <li><a href="https://www.amazon.com/Logitech-Wireless-Keyboard-Control-Touchpad/dp/B014EUQOGK">Logitech K400 keyboard (optional)</a></li>
         </ul>
-        <p class="text-muted small mb-0">Copyright &copy; SUPERTECHGUY, LLC 2023, All rights reserved</p>
+        <p>Since the WiFi Pineapple has a mostly GUI interface that works well with a touchscreen, this setup is a great option for using the Pineapple with a permanently attached computer. It&rsquo;s easy to carry and small enough to stash somewhere during an audit.</p>
+        <p>The 20100mAh battery lets it run for hours without being plugged in.</p>
+        <div class="gallery">
+          <img src="https://cdn.hackaday.io/images/5726831539982255463.jpg" alt="Pineapple Pi build photo" loading="lazy">
+          <img src="https://cdn.hackaday.io/images/6099541539982260997.jpg" alt="Pineapple Pi build photo" loading="lazy">
+          <img src="https://cdn.hackaday.io/images/6257751539982240966.jpg" alt="Pineapple Pi build photo" loading="lazy">
+        </div>
+        <p>In addition to wireless audits, I have the full capabilities of Kali Linux on a Raspberry Pi 3 at my disposal. The on-screen keyboard works for simple typing, but a small Logitech wireless keyboard makes it much easier.</p>
+        <p>Overall, I&rsquo;m very happy with the results and loving my portable wireless audit machine.</p>
+        <p class="muted">Many thanks to the <a href="https://hak5.org">Hak5</a> team for the WiFi Pineapple TETRA, the <a href="https://www.raspberrypi.org">Raspberry Pi Foundation</a> for the Raspberry Pi, and <a href="https://hackaday.io">Hackaday</a> for hosting the images for this project.</p>
       </div>
-    </footer>
+    </section>
+  </main>
 
-    <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded js-scroll-trigger" href="index.html#page-top">
-      <i class="fas fa-angle-up"></i>
-    </a>
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year">2026</span> SUPERTECHGUY, LLC &middot; Enterprise networking, security &amp; training &middot; St. George, Utah</p>
+      <div class="social">
+        <a href="https://www.linkedin.com/in/supertechguy/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/supertechguy" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.youtube.com/user/supertechguy" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://twitter.com/supertechguy" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
 
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="../../assets/js/scripts.js"></script>
-
-
-  </body>
-
+  <script src="../../assets/js/site.js"></script>
+</body>
 </html>
